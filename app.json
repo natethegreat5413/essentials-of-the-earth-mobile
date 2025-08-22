@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "EoEbooks",
+    "slug": "essentials-of-the-earth-mobile",
+    "version": "2.0.2",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f1e5f2"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eoebooks.eoe"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.eoebooks",
+      "versionCode": 37
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9d900c18-18b4-4f0f-8dbe-d43c6238b8e1"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9d900c18-18b4-4f0f-8dbe-d43c6238b8e1"
+    }
+  }
+}
